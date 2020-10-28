@@ -5,7 +5,7 @@
 import rand # What's wrong with this line? 
 time # What is missing?
 
-= random.randint(1, 10) # Generate a random number between 1 and 100.  
+= random.randint(1, 10) # Generate a random number between 1 and 100. What should you name this variable?  Look at the for loop later in the code. 
 
 player_name = input("What is your name?  Please type your name and press enter.\n")
 printf"Welcome to the Bug Hunt #00 activity {plyr_name}!\n"
@@ -51,7 +51,7 @@ print(Next, I am going to count to a random number between 1 and 100.\n  If the 
 num_even = ? # Should start at zero. 
 num_odd = ? # Should start at zero. 
 
-for idx in range(random.randint(1, 100)):
+for idx in range(rand_num):
     # % is called MODULUS.  It means to divide the first number by the second and give the REMAINDER as the answer. 
     if idx % 3 == 0: # Is this divisible by 2 or by 3?
         print(f"{idx} is divisible by two!\n")
